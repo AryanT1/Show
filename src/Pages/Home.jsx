@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import hero from "../assets/hero.png";
 import herobg from "../assets/hero-bg.png";
 import Search from "../components/search.jsx";
 import { Spinner } from "flowbite-react";
