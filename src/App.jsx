@@ -1,6 +1,6 @@
 import { Routes, Route,} from "react-router-dom";
 import Home from "./Pages/Home.jsx";
-import MoiveInfo from "./pages/MoiveInfo.jsx";
+import MoiveInfo from "./pages/MovieInfo.jsx";
 
 function App() {
   return (
