@@ -12,7 +12,7 @@ const API_OPTIONS = {
   },
 };
 
-const MoiveInfo = () => {
+const MovieInfo = () => {
   const { id } = useParams();
   const [movieData, setMovieData] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
@@ -167,4 +167,4 @@ const MoiveInfo = () => {
   );
 };
 
-export default MoiveInfo;
+export default MovieInfo;
