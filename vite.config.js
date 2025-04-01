@@ -6,9 +6,5 @@ import flowbiteReact from "flowbite-react/plugin/vite";
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss(), flowbiteReact()],
-  server: {
-    fs: {
-      strict: false // Allows case-insensitive imports
-    }
-  }
+  
 })
