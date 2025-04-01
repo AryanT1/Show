@@ -1,19 +1,16 @@
-import { useState } from 'react'
-import './App.css'
-import { Route, Routes } from 'react-router-dom'
+import { Routes, Route,} from "react-router-dom";
+import Home from "./Pages/Home.jsx";
+import MoiveInfo from "./pages/MoiveInfo.jsx";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-       <>
-      <Routes>
-      <Route path="/" element={<Home/>} />
+    <Routes>
+        <Route path="/" element={<Home/>} />
+      < Route path="/movie/:id" element={<MoiveInfo/>}/>
       </Routes>
-    </>
-    </>
+ 
   )
+  
 }
 
-export default App
+export default App;
